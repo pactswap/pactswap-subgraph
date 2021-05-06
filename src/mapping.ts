@@ -4,8 +4,8 @@ import {
   GovernanceSetTransferred,
   IncentivesPoolSetTransferred,
   PairCreated
-} from "../generated/PactSwapFactory/PactSwapFactory"
-import { ExampleEntity } from "../generated/schema"
+} from "./types/PactSwapFactory/PactSwapFactory"
+import { ExampleEntity } from "./types/schema"
 
 export function handleGovernanceSetTransferred(
   event: GovernanceSetTransferred
